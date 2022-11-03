@@ -34,13 +34,13 @@ class BMICalculator {
   }
 
   void incrementAge() {
-    if(weight < 116) {
+    if(age < 116) {
       _selectedAge++;
     }
   }
 
   void decrementAge() {
-    if(weight > 1) {
+    if(age > 1) {
       _selectedAge--;
     }
   }
