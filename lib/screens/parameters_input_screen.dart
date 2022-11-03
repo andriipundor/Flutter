@@ -155,7 +155,7 @@ class _ParametersInputScreenState extends State<ParametersInputScreen> {
                 value: _calculator.weight,
                 onDecrease: () {
                   setState(() {
-                      _calculator.decrementWeight();
+                    _calculator.decrementWeight();
                   });
                 },
                 onIncrease: () {
