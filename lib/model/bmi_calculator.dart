@@ -22,19 +22,27 @@ class BMICalculator {
   }
 
   void incrementWeight() {
-    _selectedWeight++;
+    if(weight < 400) {
+      _selectedWeight++;
+    }
   }
 
   void decrementWeight() {
-    _selectedWeight--;
+    if(weight > 1) {
+      _selectedWeight--;
+    }
   }
 
   void incrementAge() {
-    _selectedAge++;
+    if(weight < 116) {
+      _selectedAge++;
+    }
   }
 
   void decrementAge() {
-    _selectedAge--;
+    if(weight > 1) {
+      _selectedAge--;
+    }
   }
 
   // Logic
