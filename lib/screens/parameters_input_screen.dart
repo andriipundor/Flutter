@@ -128,7 +128,7 @@ class _ParametersInputScreenState extends State<ParametersInputScreen> {
             ),
             Slider(
               value: _calculator.height.toDouble(),
-              min: 70,
+              min: 50,
               max: 230,
               activeColor: activeElementColor,
               inactiveColor: inactionElementColor,
